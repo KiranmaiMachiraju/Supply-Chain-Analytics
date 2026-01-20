@@ -89,12 +89,13 @@ Anomalies may represent operational exceptions, data quality issues, or high-ris
 Rolling averages provide an interpretable benchmark suitable for operational planning discussions and model comparison.
 
 ---
-
 ## Key Insights
-- Shipment delays vary significantly across **carriers, service levels, and customers**.
-- A small subset of customers drives a disproportionate share of shipment volume and weight.
-- Anomaly detection highlights a manageable set of shipments for focused review.
-- Simple forecasting methods offer meaningful signal for short-term demand planning.
+
+- The dataset represents a **non-delayed operational snapshot**, with no observed shipment delays across orders.
+- Shipment volume and weight are **highly concentrated among a small subset of customers and products**.
+- Operational activity is unevenly distributed across carriers and plants, highlighting potential dependency risks.
+- Anomaly detection identified a small percentage of shipments with unusual characteristics based on weight and quantity patterns.
+- Aggregated demand patterns provide a usable signal for short-term forecasting despite limited temporal depth.
 
 ---
 
